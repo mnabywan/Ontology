@@ -1673,7 +1673,6 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/killed">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/consequence"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">killed</rdfs:label>
     </owl:Class>
     
 
@@ -2993,766 +2992,10 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/R0EAcgIwUNc2vLfkUA0DoG -->
+    <!-- http://webprotege.stanford.edu/Scenario_1 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R0EAcgIwUNc2vLfkUA0DoG">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/rock"/>
-        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/R9duA7KJhsB2yNayLjoGvAs"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rock_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R3lJAOevXsxsmCLP1odBZ2 -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R3lJAOevXsxsmCLP1odBZ2">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_8</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R4tZoVkufANVccdap9shQY -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R4tZoVkufANVccdap9shQY">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/ditch"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RBo84Gk3IBnlOAkrW4aFJcA"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ditch_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R6BMqjggLzsrZUcsC7kcyd -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R6BMqjggLzsrZUcsC7kcyd">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/car_car"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_laws"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/right_hand_traffic"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_time"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/morning"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_weather"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/sunny"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/RB2vIyGgptk63HJGrpJl7Jp"/>
-        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/RBo84Gk3IBnlOAkrW4aFJcA"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_3</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R6HGqoEmDQu6x5u6WqARng -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R6HGqoEmDQu6x5u6WqARng">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_9</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R6TeiSIac4t7UbMte1Myj5 -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R6TeiSIac4t7UbMte1Myj5">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/road_type"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/provincial_road"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/two_ways_road"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:has_lanes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</webprotege:has_lanes>
-        <has_speed_limit_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</has_speed_limit_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">road_type_is_provincial_road_3</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R730C45WvDXIanDhkinZSLL -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R730C45WvDXIanDhkinZSLL">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/illegal_pedestrian_crossings"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:pedestrian_has_location rdf:resource="http://webprotege.stanford.edu/RcDAjfBZdAQHYqOckooSGq"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_4</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R78LT8NWE9Vc3dBa5GOqVm1 -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R78LT8NWE9Vc3dBa5GOqVm1">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/pedestrian_crossing"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_7</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7942DVD2Oz6P3DT2J1IOev -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7942DVD2Oz6P3DT2J1IOev">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/street_crossing"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7ICkoohnCwCy5U6hfpOQYp -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7ICkoohnCwCy5U6hfpOQYp">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/illegal_pedestrian_crossings"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:pedestrian_has_location rdf:resource="http://webprotege.stanford.edu/RcDAjfBZdAQHYqOckooSGq"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_5</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7J1qeWgZrdHBgMcxDLR9i7 -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7J1qeWgZrdHBgMcxDLR9i7">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/pedestrian_crossing"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_9</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7J64Az2IrXoNbGd48vNbVx -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7J64Az2IrXoNbGd48vNbVx">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/forest"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/R86MGYPfRPikb6jQuONb8m"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forest_2</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7JtBYrvq071qJQHH0JIGbf -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7JtBYrvq071qJQHH0JIGbf">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_10</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7RvSSbhFCb2PpV5toFiSKo -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7RvSSbhFCb2PpV5toFiSKo">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/pedestrian_crossing"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_8</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7TbHqXdUMOsiug2pojB0ej -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7TbHqXdUMOsiug2pojB0ej">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
-        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/RC2yB0rcWpOHK0VGrMeaCLn"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RC975RClVQHHUBKpKtozp9W"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RDEOzbZqNKjLIU2HL6hXkgS"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_7</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7U0E3XlanP5ofyH5OJYcE9 -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7U0E3XlanP5ofyH5OJYcE9">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_11</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7XtC1sXCpJ5nTZjUvpsUUR -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7XtC1sXCpJ5nTZjUvpsUUR">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RBo84Gk3IBnlOAkrW4aFJcA"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7fysZerpoBmaJsYAb99OW4 -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7fysZerpoBmaJsYAb99OW4">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/vehicle_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/passenger_car"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/R7vba7EukGIrXO6QUK9rH55"/>
-        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/R8XsvIJqvyQ7cDVuW0eqKnn"/>
-        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/R6HGqoEmDQu6x5u6WqARng"/>
-        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</vehicle_has_speed_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_10</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7mIzX4UvmaQBGhjMoIgrOl -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7mIzX4UvmaQBGhjMoIgrOl">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
-        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/R9A78jHClZWy0hLEENofmLj"/>
-        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/RDXk4L5oK9j3UoybjtNkzsD"/>
-        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/RC8uwDy4bbfBG1gyjB9h0Ek"/>
-        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/R8NR7ouRuV166D8LIDcfIvv"/>
-        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/RDlxlfAdGx2jFJrQ2mOgGc9"/>
-        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</vehicle_has_speed_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_5</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7vba7EukGIrXO6QUK9rH55 -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7vba7EukGIrXO6QUK9rH55">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_9</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R86MGYPfRPikb6jQuONb8m -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R86MGYPfRPikb6jQuONb8m">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/vehicle_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/passenger_car"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/R7J64Az2IrXoNbGd48vNbVx"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RcDAjfBZdAQHYqOckooSGq"/>
-        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/R8NR7ouRuV166D8LIDcfIvv"/>
-        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/R3lJAOevXsxsmCLP1odBZ2"/>
-        <webprotege:autonomy_level rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</webprotege:autonomy_level>
-        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</vehicle_has_speed_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_9</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8HobXcUC6exeRr1pEdbC1N -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8HobXcUC6exeRr1pEdbC1N">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RBo84Gk3IBnlOAkrW4aFJcA"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_2</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8JVSYKIR4lEH9AddKtj1GB -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8JVSYKIR4lEH9AddKtj1GB">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_5</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8NR7ouRuV166D8LIDcfIvv -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8NR7ouRuV166D8LIDcfIvv">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/road_type"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/trunk_road"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/two_ways_road"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:has_lanes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</webprotege:has_lanes>
-        <has_speed_limit_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</has_speed_limit_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">road_type_is_trunk_road_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8UZtwd0UEtY0cSMcZcGTs6 -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8UZtwd0UEtY0cSMcZcGTs6">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/consequence"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">killed</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8XsvIJqvyQ7cDVuW0eqKnn -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8XsvIJqvyQ7cDVuW0eqKnn">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/road_type"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/state_road"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/two_ways_road"/>
-            </owl:Restriction>
-        </rdf:type>
-        <has_speed_limit_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</has_speed_limit_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">road_type_is_state_road</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8nENMSRIGAgXPp1xsHA5yt -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8nENMSRIGAgXPp1xsHA5yt">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
-        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/RCofJEk5OwRKkBwxWA3WO8Y"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RC975RClVQHHUBKpKtozp9W"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RDEOzbZqNKjLIU2HL6hXkgS"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_8</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8ta2GwGe0sche3fBREAf9D -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8ta2GwGe0sche3fBREAf9D">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/bushes"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/R9duA7KJhsB2yNayLjoGvAs"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bushes_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8uX8PNdUDC2CZqtRjYk44S -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8uX8PNdUDC2CZqtRjYk44S">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/car_car"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_laws"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/right_hand_traffic"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_time"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/evening"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_weather"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/heavy_rain"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/R7mIzX4UvmaQBGhjMoIgrOl"/>
-        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/R9A78jHClZWy0hLEENofmLj"/>
-        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/RDXk4L5oK9j3UoybjtNkzsD"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_2</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8wlFPQaVwVfuwIl03E6XwK -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8wlFPQaVwVfuwIl03E6XwK">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/criminal_record"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_type_of_crime"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/drug_offences"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_type_of_sentence"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/imprisonment"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:restriction_of_liberty_length_years rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</webprotege:restriction_of_liberty_length_years>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">criminal_record_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8zgyNAw5yOJeCqNWFd8V7 -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8zgyNAw5yOJeCqNWFd8V7">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_4</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R935TFrSkXPepGoNVtDfY4K -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R935TFrSkXPepGoNVtDfY4K">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_7</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R953I3fFrm9uJyti1Y0SCo1 -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R953I3fFrm9uJyti1Y0SCo1">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/vehicle_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/van"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RDacVkXE79MeTmGRRGhuo2n"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/R9928IZPuMrr512Tw6tPfcl"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RLCTtyebp5SerOchCzcyY9"/>
-        <webprotege:has_within_very_close_distance rdf:resource="http://webprotege.stanford.edu/RBPTGUjZbsAQ1RzhkUvJnw5"/>
-        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/RB8LluaIcgUmTOmFCCLzLKL"/>
-        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/RDPvYmhBkSChZSwvSaMnL9"/>
-        <webprotege:autonomy_level rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</webprotege:autonomy_level>
-        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</vehicle_has_speed_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_van_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9928IZPuMrr512Tw6tPfcl -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9928IZPuMrr512Tw6tPfcl">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/forest"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/R953I3fFrm9uJyti1Y0SCo1"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forest_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9A78jHClZWy0hLEENofmLj -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9A78jHClZWy0hLEENofmLj">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
-        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/R7mIzX4UvmaQBGhjMoIgrOl"/>
-        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/RDXk4L5oK9j3UoybjtNkzsD"/>
-        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/RCMIG2ta4YdYjKVhOlmWPqo"/>
-        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/R8NR7ouRuV166D8LIDcfIvv"/>
-        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/R8JVSYKIR4lEH9AddKtj1GB"/>
-        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</vehicle_has_speed_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_3</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9OdHObyLuxwW860RlghQDA -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9OdHObyLuxwW860RlghQDA">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/jaywalking"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_laws"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/right_hand_traffic"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_time"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/evening"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_weather"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/heavy_rain"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/R730C45WvDXIanDhkinZSLL"/>
-        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/R7ICkoohnCwCy5U6hfpOQYp"/>
-        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/RC0q3SaZqwTepkQ2VQYx5so"/>
-        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/R86MGYPfRPikb6jQuONb8m"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_5</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9TSFZx70sPfw8iTixJxkrw -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9TSFZx70sPfw8iTixJxkrw">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_4</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9YTR4kh8tnjxLkWExVLcsT -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9YTR4kh8tnjxLkWExVLcsT">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/pedestrian_crossing"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_6</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9duA7KJhsB2yNayLjoGvAs -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9duA7KJhsB2yNayLjoGvAs">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/vehicle_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/passenger_car"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/R0EAcgIwUNc2vLfkUA0DoG"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/R8ta2GwGe0sche3fBREAf9D"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RkGkKrwex7qyyUEw73uMJy"/>
-        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/R7U0E3XlanP5ofyH5OJYcE9"/>
-        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/R6TeiSIac4t7UbMte1Myj5"/>
-        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/R7JtBYrvq071qJQHH0JIGbf"/>
-        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/RvmlmxGUnjwFkKpMsFeYKO"/>
-        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</vehicle_has_speed_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_11</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9iJQ6DSh7jq8FGz83rFuJX -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9iJQ6DSh7jq8FGz83rFuJX">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/street_lamp"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RCjws43Kc1cndLO3jIjuPE"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">street_lamp_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9kMO55CSMKKAFJ73PO6pNU -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9kMO55CSMKKAFJ73PO6pNU">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_6</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9mCMwK1XMdOwweTo2pfumX -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9mCMwK1XMdOwweTo2pfumX">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_2</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9uNsdXJQ5aeFZss6VlCr4c -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9uNsdXJQ5aeFZss6VlCr4c">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9yMLQ9XH9qStDQfEuyRFVh -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9yMLQ9XH9qStDQfEuyRFVh">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Scenario_1">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/overtaking"/>
         <rdf:type>
             <owl:Restriction>
@@ -3772,91 +3015,279 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/sunny"/>
             </owl:Restriction>
         </rdf:type>
-        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/RC975RClVQHHUBKpKtozp9W"/>
-        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/RDEOzbZqNKjLIU2HL6hXkgS"/>
+        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_1"/>
+        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_2"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_1</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RB2vIyGgptk63HJGrpJl7Jp -->
+    <!-- http://webprotege.stanford.edu/Scenario_2 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB2vIyGgptk63HJGrpJl7Jp">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Scenario_2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/car_car"/>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/driver_makes_action"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/stop"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/RBo84Gk3IBnlOAkrW4aFJcA"/>
-        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/R935TFrSkXPepGoNVtDfY4K"/>
-        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/RCoZZfCufIVI5awJzc4ro39"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_7</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RB8LluaIcgUmTOmFCCLzLKL -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB8LluaIcgUmTOmFCCLzLKL">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_10</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBILB3k9lJTPta1mZJpAAbe -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBILB3k9lJTPta1mZJpAAbe">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/vehicle_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/truck"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/R8XsvIJqvyQ7cDVuW0eqKnn"/>
-        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</vehicle_has_speed_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_truck_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBKwh1GahvIWR1xCUqlHLhs -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBKwh1GahvIWR1xCUqlHLhs">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/street_crossing"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_laws"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/right_hand_traffic"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_time"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/evening"/>
             </owl:Restriction>
         </rdf:type>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_2</rdfs:label>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_weather"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/heavy_rain"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_3"/>
+        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_4"/>
+        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_5"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_2</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RBPTGUjZbsAQ1RzhkUvJnw5 -->
+    <!-- http://webprotege.stanford.edu/Scenario_3 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBPTGUjZbsAQ1RzhkUvJnw5">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Scenario_3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/car_car"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_laws"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/right_hand_traffic"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_time"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/morning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_weather"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/sunny"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_6"/>
+        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_7"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Scenario_4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Scenario_4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/crosswalking"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_laws"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/right_hand_traffic"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_time"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/evening"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/pedestrian_1"/>
+        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/pedestrian_2"/>
+        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_8"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Scenario_5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Scenario_5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/jaywalking"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_laws"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/right_hand_traffic"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_time"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/evening"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_weather"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/heavy_rain"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/pedestrian_3"/>
+        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/pedestrian_4"/>
+        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/pedestrian_5"/>
+        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_9"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Scenario_6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Scenario_6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/crosswalking"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_laws"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/right_hand_traffic"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_time"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/evening"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_weather"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/shower"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/pedestrian_6"/>
+        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/pedestrian_7"/>
+        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/pedestrian_8"/>
+        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/pedestrian_9"/>
+        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_10"/>
+        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_truck_1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Scenario_7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Scenario_7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/jaywalking"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_laws"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/right_hand_traffic"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_time"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/evening"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_weather"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/strong_wind"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/deer_1"/>
+        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_van_1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Scenario_8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Scenario_8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/scenario"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_laws"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/right_hand_traffic"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_time"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/morning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_weather"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/shower"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_weather"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/strong_wind"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_11"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_8</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/bushes_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/bushes_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/bushes"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_11"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bushes_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/cliff_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/cliff_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/cliff/edge"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_11"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cliff_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/criminal_record_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/criminal_record_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/criminal_record"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_type_of_crime"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/drug_offences"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_type_of_sentence"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/imprisonment"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:restriction_of_liberty_length_years rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</webprotege:restriction_of_liberty_length_years>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">criminal_record_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/deer_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/deer_1">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/animal"/>
         <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
         <rdf:type rdf:resource="http://webprotege.stanford.edu/wild"/>
@@ -3878,114 +3309,446 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
             </owl:Restriction>
         </rdf:type>
-        <webprotege:has_within_very_close_distance rdf:resource="http://webprotege.stanford.edu/R953I3fFrm9uJyti1Y0SCo1"/>
+        <webprotege:has_within_very_close_distance rdf:resource="http://webprotege.stanford.edu/vehicle_is_van_1"/>
         <webprotege:animal_has_species rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deer</webprotege:animal_has_species>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deer_1</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RBS9TSRNKzKiM8K5mMuJak2 -->
+    <!-- http://webprotege.stanford.edu/ditch_1 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBS9TSRNKzKiM8K5mMuJak2">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/crosswalking"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_laws"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/right_hand_traffic"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_time"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/evening"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/R7942DVD2Oz6P3DT2J1IOev"/>
-        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/RBKwh1GahvIWR1xCUqlHLhs"/>
-        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/RCjws43Kc1cndLO3jIjuPE"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_4</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/ditch_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/ditch"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_6"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ditch_1</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RBePCkX2Kjtxh7zsz99UiE3 -->
+    <!-- http://webprotege.stanford.edu/ditch_2 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBePCkX2Kjtxh7zsz99UiE3">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/scenario"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scenario100</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBo84Gk3IBnlOAkrW4aFJcA -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBo84Gk3IBnlOAkrW4aFJcA">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
-        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/RB2vIyGgptk63HJGrpJl7Jp"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/R8HobXcUC6exeRr1pEdbC1N"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RDA0wmzXB3L8lVb6VSUQWls"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/R4tZoVkufANVccdap9shQY"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/R7XtC1sXCpJ5nTZjUvpsUUR"/>
-        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/R9kMO55CSMKKAFJ73PO6pNU"/>
-        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/RCoZZfCufIVI5awJzc4ro39"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_6</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBznJTQ4nrAA6o44kAO50AD -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBznJTQ4nrAA6o44kAO50AD">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/ditch_2">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RCjws43Kc1cndLO3jIjuPE"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_3</rdfs:label>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_6"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ditch_2</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RC0k1rS8GP8MMCtyZA9HHUS -->
+    <!-- http://webprotege.stanford.edu/ditch_3 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC0k1rS8GP8MMCtyZA9HHUS">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/crosswalking"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_laws"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/right_hand_traffic"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_time"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/evening"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_weather"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/shower"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/R78LT8NWE9Vc3dBa5GOqVm1"/>
-        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/R7J1qeWgZrdHBgMcxDLR9i7"/>
-        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/R7RvSSbhFCb2PpV5toFiSKo"/>
-        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/R9YTR4kh8tnjxLkWExVLcsT"/>
-        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/R7fysZerpoBmaJsYAb99OW4"/>
-        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/RBILB3k9lJTPta1mZJpAAbe"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_6</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/ditch_3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/ditch"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/vehicle_is_van_1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ditch_3</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RC0q3SaZqwTepkQ2VQYx5so -->
+    <!-- http://webprotege.stanford.edu/driver_1 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC0q3SaZqwTepkQ2VQYx5so">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/driver_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/driver_10 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/driver_10">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_10</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/driver_11 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/driver_11">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_11</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/driver_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/driver_2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/driver_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/driver_3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/driver_4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/driver_4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/driver_5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/driver_5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/driver_6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/driver_6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/driver_7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/driver_7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/driver_8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/driver_8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_8</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/driver_9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/driver_9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/field_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/field_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/field"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/vehicle_is_van_1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">field_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/forest_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/forest_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/forest"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/vehicle_is_van_1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forest_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/forest_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/forest_2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/forest"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_9"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forest_2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/killed -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/killed">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/consequence"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/killed_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/killed_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/killed"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">killed_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/location_at_the_back_of_c3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/location_at_the_back_of_c3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
+        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_3"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">location_at_the_back_of_c3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/passenger_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/passenger_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/passenger_10 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/passenger_10">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_10</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/passenger_11 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/passenger_11">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_11</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/passenger_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/passenger_2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/passenger_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/passenger_3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/passenger_4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/passenger_4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/passenger_5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/passenger_5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/passenger_6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/passenger_6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/passenger_7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/passenger_7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
+        <webprotege:criminal_record rdf:resource="http://webprotege.stanford.edu/criminal_record_1"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/passenger_8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/passenger_8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_8</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/passenger_9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/passenger_9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/pavement_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/pavement_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/pavement"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_9"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pavement_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/pedestrian_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/pedestrian_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/street_crossing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/pedestrian_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/pedestrian_2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/street_crossing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/pedestrian_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/pedestrian_3">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
         <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
         <rdf:type>
@@ -4000,7 +3763,7 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
             </owl:Restriction>
         </rdf:type>
-        <webprotege:pedestrian_has_location rdf:resource="http://webprotege.stanford.edu/RcDAjfBZdAQHYqOckooSGq"/>
+        <webprotege:pedestrian_has_location rdf:resource="http://webprotege.stanford.edu/pavement_1"/>
         <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</webprotege:age>
         <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_3</rdfs:label>
@@ -4008,288 +3771,172 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/RC2yB0rcWpOHK0VGrMeaCLn -->
+    <!-- http://webprotege.stanford.edu/pedestrian_4 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC2yB0rcWpOHK0VGrMeaCLn">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
-        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/RDsGvXNmnnuusBtXw2wY8gC"/>
-        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/R7TbHqXdUMOsiug2pojB0ej"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RC975RClVQHHUBKpKtozp9W"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RDEOzbZqNKjLIU2HL6hXkgS"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_6</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RC8uwDy4bbfBG1gyjB9h0Ek -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC8uwDy4bbfBG1gyjB9h0Ek">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</webprotege:age>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/pedestrian_4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/illegal_pedestrian_crossings"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:pedestrian_has_location rdf:resource="http://webprotege.stanford.edu/pavement_1"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</webprotege:age>
         <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_5</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_4</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RC975RClVQHHUBKpKtozp9W -->
+    <!-- http://webprotege.stanford.edu/pedestrian_5 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC975RClVQHHUBKpKtozp9W">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/pedestrian_5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/vehicle_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/passenger_car"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/illegal_pedestrian_crossings"/>
             </owl:Restriction>
         </rdf:type>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/R7TbHqXdUMOsiug2pojB0ej"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RC2yB0rcWpOHK0VGrMeaCLn"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RDEOzbZqNKjLIU2HL6hXkgS"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RDsGvXNmnnuusBtXw2wY8gC"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/R8nENMSRIGAgXPp1xsHA5yt"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RCofJEk5OwRKkBwxWA3WO8Y"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RLydhSapu8kGFisrO39wdf"/>
-        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/R9mCMwK1XMdOwweTo2pfumX"/>
-        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/RDi6tzc7bvyKdvzFFP665ML"/>
-        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/R8zgyNAw5yOJeCqNWFd8V7"/>
-        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/RD2P0RTCYyXYu0qO1D4I76n"/>
-        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/ROo0OkQyyTuadZYk6gA6vk"/>
-        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</vehicle_has_speed_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_2</rdfs:label>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:pedestrian_has_location rdf:resource="http://webprotege.stanford.edu/pavement_1"/>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_5</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RCMIG2ta4YdYjKVhOlmWPqo -->
+    <!-- http://webprotege.stanford.edu/pedestrian_6 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCMIG2ta4YdYjKVhOlmWPqo">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</webprotege:age>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/pedestrian_6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/pedestrian_crossing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</webprotege:age>
         <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_3</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_6</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RCNlbJ11ZFO5NeipMhXRZd3 -->
+    <!-- http://webprotege.stanford.edu/pedestrian_7 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCNlbJ11ZFO5NeipMhXRZd3">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/killed"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">killed_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCPraeshtPofUx707TciUUh -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCPraeshtPofUx707TciUUh">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</webprotege:age>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/pedestrian_7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/pedestrian_crossing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</webprotege:age>
         <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_8</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_7</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RCjws43Kc1cndLO3jIjuPE -->
+    <!-- http://webprotege.stanford.edu/pedestrian_8 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCjws43Kc1cndLO3jIjuPE">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/R9iJQ6DSh7jq8FGz83rFuJX"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RBznJTQ4nrAA6o44kAO50AD"/>
-        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/RCPraeshtPofUx707TciUUh"/>
-        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/R8XsvIJqvyQ7cDVuW0eqKnn"/>
-        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/RDaAvxbwT6yLyOaxUgJ7Nl2"/>
-        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</vehicle_has_speed_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_8</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCoZZfCufIVI5awJzc4ro39 -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCoZZfCufIVI5awJzc4ro39">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/road_type"/>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/pedestrian_8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/provincial_road"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/pedestrian_crossing"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/two_ways_road"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
             </owl:Restriction>
         </rdf:type>
-        <has_speed_limit_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</has_speed_limit_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">road_type_is_provincial_road_2</rdfs:label>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_8</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RCofJEk5OwRKkBwxWA3WO8Y -->
+    <!-- http://webprotege.stanford.edu/pedestrian_9 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCofJEk5OwRKkBwxWA3WO8Y">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
-        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/R8nENMSRIGAgXPp1xsHA5yt"/>
-        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/RLydhSapu8kGFisrO39wdf"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RC975RClVQHHUBKpKtozp9W"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RDEOzbZqNKjLIU2HL6hXkgS"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_9</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/pedestrian_9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_has_location"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/pedestrian_crossing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/pedestrian_makes_action"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/cross_the_street"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</webprotege:age>
+        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_9</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RCrR0is4iFhPUBBu4MoBTgA -->
+    <!-- http://webprotege.stanford.edu/right_hand_traffic1 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCrR0is4iFhPUBBu4MoBTgA">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/right_hand_traffic1">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/right_hand_traffic"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">right_hand_traffic1</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RD2P0RTCYyXYu0qO1D4I76n -->
+    <!-- http://webprotege.stanford.edu/road_type_is_provincial_road_1 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RD2P0RTCYyXYu0qO1D4I76n">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_2</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDA0wmzXB3L8lVb6VSUQWls -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDA0wmzXB3L8lVb6VSUQWls">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RBo84Gk3IBnlOAkrW4aFJcA"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ditch_2</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDEOzbZqNKjLIU2HL6hXkgS -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDEOzbZqNKjLIU2HL6hXkgS">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/vehicle_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/passenger_car"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/R7TbHqXdUMOsiug2pojB0ej"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RC2yB0rcWpOHK0VGrMeaCLn"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RDsGvXNmnnuusBtXw2wY8gC"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/R8nENMSRIGAgXPp1xsHA5yt"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RC975RClVQHHUBKpKtozp9W"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RCofJEk5OwRKkBwxWA3WO8Y"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RLydhSapu8kGFisrO39wdf"/>
-        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/RfBmDgIUDPW1bduQcofPZA"/>
-        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/RDi6tzc7bvyKdvzFFP665ML"/>
-        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/R9uNsdXJQ5aeFZss6VlCr4c"/>
-        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</vehicle_has_speed_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDPvYmhBkSChZSwvSaMnL9 -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDPvYmhBkSChZSwvSaMnL9">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/road_type"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/trunk_road"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/two_ways_road"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:has_lanes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</webprotege:has_lanes>
-        <has_speed_limit_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</has_speed_limit_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">road_type_is_trunk_road_2</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDXWSctgLJ7xazWRG6ouBt1 -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDXWSctgLJ7xazWRG6ouBt1">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
-        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/R9A78jHClZWy0hLEENofmLj"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">location_at_the_back_of_c3</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDXk4L5oK9j3UoybjtNkzsD -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDXk4L5oK9j3UoybjtNkzsD">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
-        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/R7mIzX4UvmaQBGhjMoIgrOl"/>
-        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/R9A78jHClZWy0hLEENofmLj"/>
-        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/R9TSFZx70sPfw8iTixJxkrw"/>
-        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/R8NR7ouRuV166D8LIDcfIvv"/>
-        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</vehicle_has_speed_km:h>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_4</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDaAvxbwT6yLyOaxUgJ7Nl2 -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDaAvxbwT6yLyOaxUgJ7Nl2">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
-        <webprotege:criminal_record rdf:resource="http://webprotege.stanford.edu/R8wlFPQaVwVfuwIl03E6XwK"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_7</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDacVkXE79MeTmGRRGhuo2n -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDacVkXE79MeTmGRRGhuo2n">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/field"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/R953I3fFrm9uJyti1Y0SCo1"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">field_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDi6tzc7bvyKdvzFFP665ML -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDi6tzc7bvyKdvzFFP665ML">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/road_type_is_provincial_road_1">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/road_type"/>
         <rdf:type>
             <owl:Restriction>
@@ -4310,187 +3957,538 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/RDlxlfAdGx2jFJrQ2mOgGc9 -->
+    <!-- http://webprotege.stanford.edu/road_type_is_provincial_road_2 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDlxlfAdGx2jFJrQ2mOgGc9">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_6</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/road_type_is_provincial_road_2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/road_type"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/provincial_road"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/two_ways_road"/>
+            </owl:Restriction>
+        </rdf:type>
+        <has_speed_limit_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</has_speed_limit_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">road_type_is_provincial_road_2</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RDsGvXNmnnuusBtXw2wY8gC -->
+    <!-- http://webprotege.stanford.edu/road_type_is_provincial_road_3 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDsGvXNmnnuusBtXw2wY8gC">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/road_type_is_provincial_road_3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/road_type"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/provincial_road"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/two_ways_road"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_lanes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</webprotege:has_lanes>
+        <has_speed_limit_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</has_speed_limit_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">road_type_is_provincial_road_3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/road_type_is_state_road -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/road_type_is_state_road">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/road_type"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/state_road"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/two_ways_road"/>
+            </owl:Restriction>
+        </rdf:type>
+        <has_speed_limit_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</has_speed_limit_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">road_type_is_state_road</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/road_type_is_trunk_road_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/road_type_is_trunk_road_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/road_type"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/trunk_road"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/two_ways_road"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_lanes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</webprotege:has_lanes>
+        <has_speed_limit_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</has_speed_limit_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">road_type_is_trunk_road_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/road_type_is_trunk_road_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/road_type_is_trunk_road_2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/road_type"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/trunk_road"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/road_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/two_ways_road"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_lanes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</webprotege:has_lanes>
+        <has_speed_limit_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</has_speed_limit_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">road_type_is_trunk_road_2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/rock_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/rock_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/rock"/>
+        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_11"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rock_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/scenario100 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/scenario100">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/scenario"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scenario100</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/street_lamp_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/street_lamp_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/street_lamp"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_8"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">street_lamp_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/tree_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/tree_1">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
-        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/RC2yB0rcWpOHK0VGrMeaCLn"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RC975RClVQHHUBKpKtozp9W"/>
-        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/RDEOzbZqNKjLIU2HL6hXkgS"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_5</rdfs:label>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_6"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_1</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RLCTtyebp5SerOchCzcyY9 -->
+    <!-- http://webprotege.stanford.edu/tree_10 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RLCTtyebp5SerOchCzcyY9">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/ditch"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/R953I3fFrm9uJyti1Y0SCo1"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ditch_3</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RLydhSapu8kGFisrO39wdf -->
-
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RLydhSapu8kGFisrO39wdf">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/tree_10">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
-        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/RCofJEk5OwRKkBwxWA3WO8Y"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RC975RClVQHHUBKpKtozp9W"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/RDEOzbZqNKjLIU2HL6hXkgS"/>
+        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/tree_9"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_1"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_2"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_10</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/ROo0OkQyyTuadZYk6gA6vk -->
+    <!-- http://webprotege.stanford.edu/tree_2 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/ROo0OkQyyTuadZYk6gA6vk">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_3</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/tree_2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_6"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_2</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RcDAjfBZdAQHYqOckooSGq -->
+    <!-- http://webprotege.stanford.edu/tree_3 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RcDAjfBZdAQHYqOckooSGq">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/pavement"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/R86MGYPfRPikb6jQuONb8m"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pavement_1</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/tree_3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_8"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_3</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RcXMdPOWjY2ZOjsi9bHwb3 -->
+    <!-- http://webprotege.stanford.edu/tree_5 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RcXMdPOWjY2ZOjsi9bHwb3">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/jaywalking"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_laws"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/right_hand_traffic"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_time"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/evening"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_weather"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/strong_wind"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:has_pedestrian rdf:resource="http://webprotege.stanford.edu/RBPTGUjZbsAQ1RzhkUvJnw5"/>
-        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/R953I3fFrm9uJyti1Y0SCo1"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_7</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/tree_5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
+        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/tree_6"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_1"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_2"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_5</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RfBmDgIUDPW1bduQcofPZA -->
+    <!-- http://webprotege.stanford.edu/tree_6 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RfBmDgIUDPW1bduQcofPZA">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/driver"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver_1</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/tree_6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
+        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/tree_5"/>
+        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/tree_7"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_1"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_2"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_6</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RkEVbNVoEOYmKgZwYRfV2a -->
+    <!-- http://webprotege.stanford.edu/tree_7 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RkEVbNVoEOYmKgZwYRfV2a">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/tree_7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
+        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/tree_6"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_1"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_2"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/tree_8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/tree_8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
+        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/tree_9"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_1"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_2"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_8</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/tree_9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/tree_9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
+        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/tree_8"/>
+        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/tree_10"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_1"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_2"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/tree_unused -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/tree_unused">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/tree"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_unused</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RkGkKrwex7qyyUEw73uMJy -->
+    <!-- http://webprotege.stanford.edu/vehicle_is_passenger_car_1 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RkGkKrwex7qyyUEw73uMJy">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/cliff/edge"/>
-        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/R9duA7KJhsB2yNayLjoGvAs"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cliff_1</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/vehicle_is_passenger_car_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/vehicle_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/passenger_car"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/tree_5"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/tree_6"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/tree_7"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/tree_10"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/tree_8"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/tree_9"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_2"/>
+        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/driver_1"/>
+        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/road_type_is_provincial_road_1"/>
+        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/passenger_1"/>
+        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</vehicle_has_speed_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_1</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RtOObN7YH2iNbAi4MKYwLc -->
+    <!-- http://webprotege.stanford.edu/vehicle_is_passenger_car_10 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RtOObN7YH2iNbAi4MKYwLc">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/scenario"/>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/vehicle_is_passenger_car_10">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_laws"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/right_hand_traffic"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/vehicle_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/passenger_car"/>
             </owl:Restriction>
         </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_time"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/morning"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_weather"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/shower"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/has_weather"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/strong_wind"/>
-            </owl:Restriction>
-        </rdf:type>
-        <webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/R9duA7KJhsB2yNayLjoGvAs"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_8</rdfs:label>
+        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/driver_9"/>
+        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/road_type_is_state_road"/>
+        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/passenger_9"/>
+        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</vehicle_has_speed_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_10</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/RvmlmxGUnjwFkKpMsFeYKO -->
+    <!-- http://webprotege.stanford.edu/vehicle_is_passenger_car_11 -->
 
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RvmlmxGUnjwFkKpMsFeYKO">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/passenger"/>
-        <webprotege:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</webprotege:age>
-        <webprotege:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</webprotege:gender>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger_11</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/vehicle_is_passenger_car_11">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/vehicle_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/passenger_car"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/rock_1"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/bushes_1"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/cliff_1"/>
+        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/driver_11"/>
+        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/road_type_is_provincial_road_3"/>
+        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/passenger_10"/>
+        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/passenger_11"/>
+        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</vehicle_has_speed_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_11</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/vehicle_is_passenger_car_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/vehicle_is_passenger_car_2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/vehicle_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/passenger_car"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/tree_5"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/tree_6"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/tree_7"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_1"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/tree_10"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/tree_8"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/tree_9"/>
+        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/driver_2"/>
+        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/road_type_is_provincial_road_1"/>
+        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/passenger_2"/>
+        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/passenger_3"/>
+        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/passenger_4"/>
+        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</vehicle_has_speed_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/vehicle_is_passenger_car_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/vehicle_is_passenger_car_3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
+        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_4"/>
+        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_5"/>
+        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/driver_3"/>
+        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/road_type_is_trunk_road_1"/>
+        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/passenger_5"/>
+        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</vehicle_has_speed_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/vehicle_is_passenger_car_4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/vehicle_is_passenger_car_4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
+        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_5"/>
+        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_3"/>
+        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/driver_4"/>
+        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/road_type_is_trunk_road_1"/>
+        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</vehicle_has_speed_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/vehicle_is_passenger_car_5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/vehicle_is_passenger_car_5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
+        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_3"/>
+        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_4"/>
+        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/driver_5"/>
+        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/road_type_is_trunk_road_1"/>
+        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/passenger_6"/>
+        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</vehicle_has_speed_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/vehicle_is_passenger_car_6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/vehicle_is_passenger_car_6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
+        <webprotege:has_at_the_back rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_7"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/ditch_2"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/tree_2"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/ditch_1"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/tree_1"/>
+        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/driver_6"/>
+        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/road_type_is_provincial_road_2"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/vehicle_is_passenger_car_7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/vehicle_is_passenger_car_7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/driver_makes_action"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/stop"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_in_the_front rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_6"/>
+        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/driver_7"/>
+        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/road_type_is_provincial_road_2"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/vehicle_is_passenger_car_8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/vehicle_is_passenger_car_8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/street_lamp_1"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/tree_3"/>
+        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/driver_8"/>
+        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/road_type_is_state_road"/>
+        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/passenger_7"/>
+        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</vehicle_has_speed_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_8</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/vehicle_is_passenger_car_9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/vehicle_is_passenger_car_9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/vehicle_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/passenger_car"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/forest_2"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/pavement_1"/>
+        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/road_type_is_trunk_road_1"/>
+        <webprotege:vehicle_has_passenger rdf:resource="http://webprotege.stanford.edu/passenger_8"/>
+        <webprotege:autonomy_level rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</webprotege:autonomy_level>
+        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</vehicle_has_speed_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_passenger_car_9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/vehicle_is_truck_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/vehicle_is_truck_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/vehicle_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/truck"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/road_type_is_state_road"/>
+        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</vehicle_has_speed_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_truck_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/vehicle_is_van_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/vehicle_is_van_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/vehicle"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/vehicle_has_type"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/van"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:has_on_the_left rdf:resource="http://webprotege.stanford.edu/field_1"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/ditch_3"/>
+        <webprotege:has_on_the_right rdf:resource="http://webprotege.stanford.edu/forest_1"/>
+        <webprotege:has_within_very_close_distance rdf:resource="http://webprotege.stanford.edu/deer_1"/>
+        <webprotege:vehicle_has_driver rdf:resource="http://webprotege.stanford.edu/driver_10"/>
+        <webprotege:vehicle_has_location rdf:resource="http://webprotege.stanford.edu/road_type_is_trunk_road_2"/>
+        <webprotege:autonomy_level rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</webprotege:autonomy_level>
+        <vehicle_has_speed_km:h rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</vehicle_has_speed_km:h>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_van_1</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4521,6 +4519,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/human_properties">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_properties</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/killed">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">killed</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/moral_dilemma_presence">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moral_dilemma_presence</rdfs:label>
