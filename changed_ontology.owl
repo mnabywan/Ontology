@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
-	xmlns="http://www.w3.org/2003/11/swrl#"
+	xmlns="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -2546,8 +2546,8 @@
 <rdf:Description rdf:about="http://webprotege.stanford.edu/Scenario_1">
 	<webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_1"/>
 	<webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_2"/>
-	<has_decision xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#act_scenario1"/>
-	<has_decision xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#stay_idle_scenario1"/>
+	<has_decision xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#act_scenario_1"/>
+	<has_decision xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#stay_idle_scenario_1"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_1</rdfs:label>
 </rdf:Description>
 <!--  -->
@@ -2589,6 +2589,8 @@
 	<webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_3"/>
 	<webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_4"/>
 	<webprotege:has_vehicle rdf:resource="http://webprotege.stanford.edu/vehicle_is_passenger_car_5"/>
+	<has_decision xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#act_scenario_2"/>
+	<has_decision xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#stay_idle_scenario_2"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scenario_2</rdfs:label>
 </rdf:Description>
 <!--  -->
@@ -4093,14 +4095,24 @@
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_is_van_1</rdfs:label>
 </rdf:Description>
 <!--  -->
-<!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#act_scenario1 -->
+<!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#act_scenario_1 -->
 
-<rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#act_scenario1">
+<rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#act_scenario_1">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://webprotege.stanford.edu/act"/>
 	<has_consequence xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_act_1"/>
 	<has_consequence xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_act_1"/>
 	<has_consequence xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_act_1"/>
+</rdf:Description>
+<!--  -->
+<!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#act_scenario_2 -->
+
+<rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#act_scenario_2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://webprotege.stanford.edu/act"/>
+	<has_consequence xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_act_2"/>
+	<has_consequence xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_act_2"/>
+	<has_consequence xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_act_2"/>
 </rdf:Description>
 <!--  -->
 <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_act_1 -->
@@ -4114,6 +4126,13 @@
 	<webprotege:refers_to rdf:resource="http://webprotege.stanford.edu/passenger_4"/>
 </rdf:Description>
 <!--  -->
+<!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_act_2 -->
+
+<rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_act_2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://webprotege.stanford.edu/injured"/>
+</rdf:Description>
+<!--  -->
 <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_idle_1 -->
 
 <rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_idle_1">
@@ -4123,11 +4142,28 @@
 	<webprotege:refers_to rdf:resource="http://webprotege.stanford.edu/passenger_1"/>
 </rdf:Description>
 <!--  -->
+<!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_idle_2 -->
+
+<rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_idle_2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://webprotege.stanford.edu/injured"/>
+</rdf:Description>
+<!--  -->
 <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_act_1 -->
 
 <rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_act_1">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://webprotege.stanford.edu/intact"/>
+</rdf:Description>
+<!--  -->
+<!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_act_2 -->
+
+<rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_act_2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://webprotege.stanford.edu/intact"/>
+	<webprotege:refers_to rdf:resource="http://webprotege.stanford.edu/driver_4"/>
+	<webprotege:refers_to rdf:resource="http://webprotege.stanford.edu/driver_5"/>
+	<webprotege:refers_to rdf:resource="http://webprotege.stanford.edu/passenger_6"/>
 </rdf:Description>
 <!--  -->
 <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_idle_1 -->
@@ -4137,6 +4173,14 @@
 	<rdf:type rdf:resource="http://webprotege.stanford.edu/intact"/>
 </rdf:Description>
 <!--  -->
+<!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_idle_2 -->
+
+<rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_idle_2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://webprotege.stanford.edu/intact"/>
+	<webprotege:refers_to rdf:resource="http://webprotege.stanford.edu/driver_4"/>
+</rdf:Description>
+<!--  -->
 <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_act_1 -->
 
 <rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_act_1">
@@ -4144,6 +4188,15 @@
 	<rdf:type rdf:resource="http://webprotege.stanford.edu/killed"/>
 	<webprotege:refers_to rdf:resource="http://webprotege.stanford.edu/driver_1"/>
 	<webprotege:refers_to rdf:resource="http://webprotege.stanford.edu/passenger_1"/>
+</rdf:Description>
+<!--  -->
+<!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_act_2 -->
+
+<rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_act_2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://webprotege.stanford.edu/killed"/>
+	<webprotege:refers_to rdf:resource="http://webprotege.stanford.edu/driver_3"/>
+	<webprotege:refers_to rdf:resource="http://webprotege.stanford.edu/passenger_5"/>
 </rdf:Description>
 <!--  -->
 <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_idle_1 -->
@@ -4157,14 +4210,35 @@
 	<webprotege:refers_to rdf:resource="http://webprotege.stanford.edu/passenger_4"/>
 </rdf:Description>
 <!--  -->
-<!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#stay_idle_scenario1 -->
+<!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_idle_2 -->
 
-<rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#stay_idle_scenario1">
+<rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_idle_2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://webprotege.stanford.edu/killed"/>
+	<webprotege:refers_to rdf:resource="http://webprotege.stanford.edu/driver_3"/>
+	<webprotege:refers_to rdf:resource="http://webprotege.stanford.edu/driver_5"/>
+	<webprotege:refers_to rdf:resource="http://webprotege.stanford.edu/passenger_5"/>
+	<webprotege:refers_to rdf:resource="http://webprotege.stanford.edu/passenger_6"/>
+</rdf:Description>
+<!--  -->
+<!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#stay_idle_scenario_1 -->
+
+<rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#stay_idle_scenario_1">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://webprotege.stanford.edu/stay_idle"/>
 	<has_consequence xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_idle_1"/>
 	<has_consequence xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_idle_1"/>
 	<has_consequence xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_idle_1"/>
+</rdf:Description>
+<!--  -->
+<!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#stay_idle_scenario_2 -->
+
+<rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#stay_idle_scenario_2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://webprotege.stanford.edu/stay_idle"/>
+	<has_consequence xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_idle_2"/>
+	<has_consequence xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_idle_2"/>
+	<has_consequence xmlns="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_idle_2"/>
 </rdf:Description>
 <!--  -->
 <!--  -->
@@ -4246,6 +4320,22 @@
 <!--  -->
 <!--  -->
 
+<rdf:Description rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#s">
+	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#d">
+	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#c">
+	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#e">
+	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#s">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
 </rdf:Description>
@@ -4279,11 +4369,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid113">
-	<isRuleEnabled xmlns="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isRuleEnabled>
+	<isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isRuleEnabled>
 	<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntactEntitiesAct</rdfs:label>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InjuredEntitiesAct</rdfs:label>
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-	<body rdf:nodeID="genid124"/>
+	<body xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid124"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid124">
@@ -4293,8 +4383,8 @@
 
 <rdf:Description rdf:nodeID="genid125">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/scenario"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#s"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/scenario"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#s"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid124">
@@ -4308,9 +4398,9 @@
 
 <rdf:Description rdf:nodeID="genid123">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_decision"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#s"/>
-	<argument2 rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_decision"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#s"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid122">
@@ -4324,8 +4414,8 @@
 
 <rdf:Description rdf:nodeID="genid121">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/act"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/act"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid120">
@@ -4339,9 +4429,9 @@
 
 <rdf:Description rdf:nodeID="genid119">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_consequence"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
-	<argument2 rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_consequence"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid118">
@@ -4355,8 +4445,8 @@
 
 <rdf:Description rdf:nodeID="genid117">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/intact"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/injured"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid116">
@@ -4370,9 +4460,9 @@
 
 <rdf:Description rdf:nodeID="genid115">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/refers_to"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
-	<argument2 rdf:resource="http://www.w3.org/2003/11/swrl#e"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/refers_to"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#e"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid114">
@@ -4380,7 +4470,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid113">
-	<head rdf:nodeID="genid129"/>
+	<head xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid129"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid129">
@@ -4390,7 +4480,7 @@
 
 <rdf:Description rdf:nodeID="genid130">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-	<builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
+	<builtin xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
@@ -4398,7 +4488,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid130">
-	<arguments rdf:nodeID="genid131"/>
+	<arguments xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid131"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid131">
@@ -4418,7 +4508,7 @@
 
 <rdf:Description rdf:nodeID="genid127">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-	<builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#count"/>
+	<builtin xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#count"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#count">
@@ -4426,7 +4516,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid127">
-	<arguments rdf:nodeID="genid128"/>
+	<arguments xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid128"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid128">
@@ -4440,11 +4530,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid132">
-	<isRuleEnabled xmlns="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isRuleEnabled>
+	<isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isRuleEnabled>
 	<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InjuredEntitiesIdle</rdfs:label>
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-	<body rdf:nodeID="genid143"/>
+	<body xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid143"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid143">
@@ -4454,8 +4544,8 @@
 
 <rdf:Description rdf:nodeID="genid144">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/scenario"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#s"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/scenario"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#s"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid143">
@@ -4469,9 +4559,9 @@
 
 <rdf:Description rdf:nodeID="genid142">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_decision"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#s"/>
-	<argument2 rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_decision"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#s"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid141">
@@ -4485,8 +4575,8 @@
 
 <rdf:Description rdf:nodeID="genid140">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/stay_idle"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/stay_idle"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid139">
@@ -4500,9 +4590,9 @@
 
 <rdf:Description rdf:nodeID="genid138">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_consequence"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
-	<argument2 rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_consequence"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid137">
@@ -4516,8 +4606,8 @@
 
 <rdf:Description rdf:nodeID="genid136">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/injured"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/injured"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid135">
@@ -4531,9 +4621,9 @@
 
 <rdf:Description rdf:nodeID="genid134">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/refers_to"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
-	<argument2 rdf:resource="http://www.w3.org/2003/11/swrl#e"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/refers_to"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#e"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid133">
@@ -4541,7 +4631,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid132">
-	<head rdf:nodeID="genid148"/>
+	<head xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid148"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid148">
@@ -4551,8 +4641,8 @@
 
 <rdf:Description rdf:nodeID="genid149">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-	<builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
-	<arguments rdf:nodeID="genid150"/>
+	<builtin xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
+	<arguments xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid150"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid150">
@@ -4572,8 +4662,8 @@
 
 <rdf:Description rdf:nodeID="genid146">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-	<builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#count"/>
-	<arguments rdf:nodeID="genid147"/>
+	<builtin xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#count"/>
+	<arguments xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid147"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid147">
@@ -4587,11 +4677,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid151">
-	<isRuleEnabled xmlns="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isRuleEnabled>
+	<isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isRuleEnabled>
 	<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntactEntitiesIdle</rdfs:label>
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-	<body rdf:nodeID="genid162"/>
+	<body xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid162"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid162">
@@ -4601,8 +4691,8 @@
 
 <rdf:Description rdf:nodeID="genid163">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/scenario"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#s"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/scenario"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#s"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid162">
@@ -4616,9 +4706,9 @@
 
 <rdf:Description rdf:nodeID="genid161">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_decision"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#s"/>
-	<argument2 rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_decision"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#s"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid160">
@@ -4632,8 +4722,8 @@
 
 <rdf:Description rdf:nodeID="genid159">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/stay_idle"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/stay_idle"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid158">
@@ -4647,9 +4737,9 @@
 
 <rdf:Description rdf:nodeID="genid157">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_consequence"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
-	<argument2 rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_consequence"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid156">
@@ -4663,8 +4753,8 @@
 
 <rdf:Description rdf:nodeID="genid155">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/intact"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/intact"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid154">
@@ -4678,9 +4768,9 @@
 
 <rdf:Description rdf:nodeID="genid153">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/refers_to"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
-	<argument2 rdf:resource="http://www.w3.org/2003/11/swrl#e"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/refers_to"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://www.w3.org/2003/11/swrl#e"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid152">
@@ -4688,7 +4778,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid151">
-	<head rdf:nodeID="genid167"/>
+	<head xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid167"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid167">
@@ -4698,8 +4788,8 @@
 
 <rdf:Description rdf:nodeID="genid168">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-	<builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
-	<arguments rdf:nodeID="genid169"/>
+	<builtin xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
+	<arguments xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid169"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid169">
@@ -4719,8 +4809,8 @@
 
 <rdf:Description rdf:nodeID="genid165">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-	<builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#count"/>
-	<arguments rdf:nodeID="genid166"/>
+	<builtin xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#count"/>
+	<arguments xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid166"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid166">
@@ -4734,11 +4824,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid170">
-	<isRuleEnabled xmlns="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isRuleEnabled>
+	<isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isRuleEnabled>
 	<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Returns name of a scenario and number of killed entities when idle</rdfs:comment>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KilledEntitiesIdle</rdfs:label>
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-	<body rdf:nodeID="genid181"/>
+	<body xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid181"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid181">
@@ -4748,8 +4838,8 @@
 
 <rdf:Description rdf:nodeID="genid182">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/scenario"/>
-	<argument1 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#s"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/scenario"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#s"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid181">
@@ -4763,9 +4853,9 @@
 
 <rdf:Description rdf:nodeID="genid180">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_decision"/>
-	<argument1 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#s"/>
-	<argument2 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#d"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_decision"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#s"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#d"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid179">
@@ -4779,8 +4869,8 @@
 
 <rdf:Description rdf:nodeID="genid178">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/stay_idle"/>
-	<argument1 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#d"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/stay_idle"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#d"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid177">
@@ -4794,9 +4884,9 @@
 
 <rdf:Description rdf:nodeID="genid176">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_consequence"/>
-	<argument1 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#d"/>
-	<argument2 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#c"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_consequence"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#d"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#c"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid175">
@@ -4810,8 +4900,8 @@
 
 <rdf:Description rdf:nodeID="genid174">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/killed"/>
-	<argument1 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#c"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/killed"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#c"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid173">
@@ -4825,9 +4915,9 @@
 
 <rdf:Description rdf:nodeID="genid172">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/refers_to"/>
-	<argument1 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#c"/>
-	<argument2 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#e"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/refers_to"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#c"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#e"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid171">
@@ -4835,7 +4925,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid170">
-	<head rdf:nodeID="genid186"/>
+	<head xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid186"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid186">
@@ -4845,8 +4935,8 @@
 
 <rdf:Description rdf:nodeID="genid187">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-	<builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
-	<arguments rdf:nodeID="genid188"/>
+	<builtin xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
+	<arguments xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid188"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid188">
@@ -4866,8 +4956,8 @@
 
 <rdf:Description rdf:nodeID="genid184">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-	<builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#count"/>
-	<arguments rdf:nodeID="genid185"/>
+	<builtin xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#count"/>
+	<arguments xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid185"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid185">
@@ -4881,11 +4971,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid75">
-	<isRuleEnabled xmlns="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isRuleEnabled>
-	<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Returns name of a scenario and number of killed entities when acting</rdfs:comment>
-	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KilledEntitiesAct</rdfs:label>
+	<isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isRuleEnabled>
+	<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntactEntitiesAct</rdfs:label>
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-	<body rdf:nodeID="genid86"/>
+	<body xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid86"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid86">
@@ -4895,8 +4985,8 @@
 
 <rdf:Description rdf:nodeID="genid87">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/scenario"/>
-	<argument1 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#s"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/scenario"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#s"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid86">
@@ -4910,9 +5000,9 @@
 
 <rdf:Description rdf:nodeID="genid85">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_decision"/>
-	<argument1 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#s"/>
-	<argument2 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#d"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_decision"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#s"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#d"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid84">
@@ -4926,8 +5016,8 @@
 
 <rdf:Description rdf:nodeID="genid83">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/act"/>
-	<argument1 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#d"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/act"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#d"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid82">
@@ -4941,9 +5031,9 @@
 
 <rdf:Description rdf:nodeID="genid81">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_consequence"/>
-	<argument1 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#d"/>
-	<argument2 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#c"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_consequence"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#d"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#c"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid80">
@@ -4957,8 +5047,8 @@
 
 <rdf:Description rdf:nodeID="genid79">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/killed"/>
-	<argument1 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#c"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/intact"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#c"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid78">
@@ -4972,9 +5062,9 @@
 
 <rdf:Description rdf:nodeID="genid77">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/refers_to"/>
-	<argument1 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#c"/>
-	<argument2 rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#e"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/refers_to"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#c"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#e"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid76">
@@ -4982,7 +5072,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid75">
-	<head rdf:nodeID="genid91"/>
+	<head xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid91"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid91">
@@ -4992,13 +5082,13 @@
 
 <rdf:Description rdf:nodeID="genid92">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-	<builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
-	<arguments rdf:nodeID="genid93"/>
+	<builtin xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
+	<arguments xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid93"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid93">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-	<rdf:first rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#s"/>
+	<rdf:first rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#s"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
 
@@ -5013,13 +5103,13 @@
 
 <rdf:Description rdf:nodeID="genid89">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-	<builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#count"/>
-	<arguments rdf:nodeID="genid90"/>
+	<builtin xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#count"/>
+	<arguments xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid90"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid90">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-	<rdf:first rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#e"/>
+	<rdf:first rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#e"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
 
@@ -5028,11 +5118,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid94">
-	<isRuleEnabled xmlns="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isRuleEnabled>
-	<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InjuredEntitiesAct</rdfs:label>
+	<isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isRuleEnabled>
+	<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Returns name of a scenario and number of killed entities when acting</rdfs:comment>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KilledEntitiesAct</rdfs:label>
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-	<body rdf:nodeID="genid105"/>
+	<body xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid105"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid105">
@@ -5042,8 +5132,8 @@
 
 <rdf:Description rdf:nodeID="genid106">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/scenario"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#s"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/scenario"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#s"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid105">
@@ -5057,9 +5147,9 @@
 
 <rdf:Description rdf:nodeID="genid104">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_decision"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#s"/>
-	<argument2 rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_decision"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#s"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#d"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid103">
@@ -5073,8 +5163,8 @@
 
 <rdf:Description rdf:nodeID="genid102">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/act"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/act"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#d"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid101">
@@ -5088,9 +5178,9 @@
 
 <rdf:Description rdf:nodeID="genid100">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_consequence"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#d"/>
-	<argument2 rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#has_consequence"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#d"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#c"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid99">
@@ -5104,8 +5194,8 @@
 
 <rdf:Description rdf:nodeID="genid98">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-	<classPredicate rdf:resource="http://webprotege.stanford.edu/injured"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
+	<classPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/killed"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#c"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid97">
@@ -5119,9 +5209,9 @@
 
 <rdf:Description rdf:nodeID="genid96">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-	<propertyPredicate rdf:resource="http://webprotege.stanford.edu/refers_to"/>
-	<argument1 rdf:resource="http://www.w3.org/2003/11/swrl#c"/>
-	<argument2 rdf:resource="http://www.w3.org/2003/11/swrl#e"/>
+	<propertyPredicate xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/refers_to"/>
+	<argument1 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#c"/>
+	<argument2 xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#e"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid95">
@@ -5129,7 +5219,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid94">
-	<head rdf:nodeID="genid110"/>
+	<head xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid110"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid110">
@@ -5139,13 +5229,13 @@
 
 <rdf:Description rdf:nodeID="genid111">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-	<builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
-	<arguments rdf:nodeID="genid112"/>
+	<builtin xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
+	<arguments xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid112"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid112">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-	<rdf:first rdf:resource="http://www.w3.org/2003/11/swrl#s"/>
+	<rdf:first rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#s"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
 
@@ -5160,13 +5250,13 @@
 
 <rdf:Description rdf:nodeID="genid108">
 	<rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-	<builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#count"/>
-	<arguments rdf:nodeID="genid109"/>
+	<builtin xmlns="http://www.w3.org/2003/11/swrl#" rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#count"/>
+	<arguments xmlns="http://www.w3.org/2003/11/swrl#" rdf:nodeID="genid109"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid109">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-	<rdf:first rdf:resource="http://www.w3.org/2003/11/swrl#e"/>
+	<rdf:first rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#e"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
 
