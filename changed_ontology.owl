@@ -4115,9 +4115,9 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_act_1 -->
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_scenario_1_decision_1 -->
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_act_1">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_scenario_1_decision_1">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/injured"/>
         <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/driver_2"/>
         <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/passenger_2"/>
@@ -4127,17 +4127,9 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_act_2 -->
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_scenario_1_decision_2 -->
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_act_2">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/injured"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_idle_1 -->
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_idle_1">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_scenario_1_decision_2">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/injured"/>
         <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/driver_1"/>
         <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/passenger_1"/>
@@ -4145,25 +4137,41 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_idle_2 -->
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_scenario_2_decision_1 -->
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_idle_2">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_scenario_2_decision_1">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/injured"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_act_1 -->
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_scenario_2_decision_2 -->
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_act_1">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_scenario_2_decision_2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/injured"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_scenario_1_decision_1 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_scenario_1_decision_1">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/intact"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_act_2 -->
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_scenario_1_decision_2 -->
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_act_2">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_scenario_1_decision_2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/intact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_scenario_2_decision_1 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_scenario_2_decision_1">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/intact"/>
         <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/driver_4"/>
         <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/driver_5"/>
@@ -4172,26 +4180,18 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_idle_1 -->
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_scenario_2_decision_2 -->
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_idle_1">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/intact"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_idle_2 -->
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_idle_2">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_scenario_2_decision_2">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/intact"/>
         <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/driver_4"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_act_1 -->
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_scenario_1_decision_1 -->
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_act_1">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_scenario_1_decision_1">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/killed"/>
         <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/driver_1"/>
         <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/passenger_1"/>
@@ -4199,19 +4199,9 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_act_2 -->
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_scenario_1_decision_2 -->
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_act_2">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/killed"/>
-        <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/driver_3"/>
-        <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/passenger_5"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_idle_1 -->
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_idle_1">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_scenario_1_decision_2">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/killed"/>
         <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/driver_2"/>
         <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/passenger_2"/>
@@ -4221,9 +4211,19 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_idle_2 -->
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_scenario_2_decision_1 -->
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_idle_2">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_scenario_2_decision_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/killed"/>
+        <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/driver_3"/>
+        <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/passenger_5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_scenario_2_decision_2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_scenario_2_decision_2">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/killed"/>
         <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/driver_3"/>
         <webprotege:health_consequence_to rdf:resource="http://webprotege.stanford.edu/driver_5"/>
@@ -4233,36 +4233,36 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_act_1 -->
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_scenario_1_decision_1 -->
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_act_1">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_scenario_1_decision_1">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_consequence"/>
         <BDGSqwMbfBgw7pUJ8IOnJ1:has_material_value rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">20000</BDGSqwMbfBgw7pUJ8IOnJ1:has_material_value>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_act_2 -->
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_scenario_1_decision_2 -->
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_act_2">
-        <rdf:type rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_consequence"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_material_value rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">20000</BDGSqwMbfBgw7pUJ8IOnJ1:has_material_value>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_idle_1 -->
-
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_idle_1">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_scenario_1_decision_2">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_consequence"/>
         <BDGSqwMbfBgw7pUJ8IOnJ1:has_material_value rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">40000</BDGSqwMbfBgw7pUJ8IOnJ1:has_material_value>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_idle_2 -->
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_scenario_2_decision_1 -->
 
-    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_idle_2">
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_scenario_2_decision_1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_consequence"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_material_value rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">20000</BDGSqwMbfBgw7pUJ8IOnJ1:has_material_value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_scenario_2_decision_2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_scenario_2_decision_2">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_consequence"/>
         <BDGSqwMbfBgw7pUJ8IOnJ1:has_material_value rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">40000</BDGSqwMbfBgw7pUJ8IOnJ1:has_material_value>
     </owl:NamedIndividual>
@@ -4274,10 +4274,10 @@
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#scenario_1_decision_1">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/decision"/>
         <BDGSqwMbfBgw7pUJ8IOnJ1:has_action rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#turn_right_passenger_car_1"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_act_1"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_act_1"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_act_1"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_act_1"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_scenario_1_decision_1"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_scenario_1_decision_1"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_scenario_1_decision_1"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_scenario_1_decision_1"/>
         <BDGSqwMbfBgw7pUJ8IOnJ1:has_certainty rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</BDGSqwMbfBgw7pUJ8IOnJ1:has_certainty>
     </owl:NamedIndividual>
     
@@ -4287,10 +4287,10 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#scenario_1_decision_2">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/decision"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_idle_1"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_idle_1"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_idle_1"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_idle_1"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_scenario_1_decision_2"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_scenario_1_decision_2"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_scenario_1_decision_2"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_scenario_1_decision_2"/>
         <BDGSqwMbfBgw7pUJ8IOnJ1:has_certainty rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</BDGSqwMbfBgw7pUJ8IOnJ1:has_certainty>
     </owl:NamedIndividual>
     
@@ -4301,10 +4301,10 @@
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#scenario_2_decision_1">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/decision"/>
         <BDGSqwMbfBgw7pUJ8IOnJ1:has_action rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#turn_right_passenger_car_3"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_act_2"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_act_2"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_act_2"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_act_2"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_scenario_2_decision_1"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_scenario_2_decision_1"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_scenario_2_decision_1"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_scenario_2_decision_1"/>
         <BDGSqwMbfBgw7pUJ8IOnJ1:has_certainty rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</BDGSqwMbfBgw7pUJ8IOnJ1:has_certainty>
     </owl:NamedIndividual>
     
@@ -4314,10 +4314,10 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#scenario_2_decision_2">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/decision"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_idle_2"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_idle_2"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_idle_2"/>
-        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_idle_2"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#injured_scenario_2_decision_2"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#intact_scenario_2_decision_2"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#killed_scenario_2_decision_2"/>
+        <BDGSqwMbfBgw7pUJ8IOnJ1:has_consequence rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_scenario_2_decision_2"/>
         <BDGSqwMbfBgw7pUJ8IOnJ1:has_certainty rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</BDGSqwMbfBgw7pUJ8IOnJ1:has_certainty>
     </owl:NamedIndividual>
     
