@@ -1276,7 +1276,7 @@
     <!-- http://webprotege.stanford.edu/decision -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/decision">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/car_pedestrian"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/state_change"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decision</rdfs:label>
     </owl:Class>
     
