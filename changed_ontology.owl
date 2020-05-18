@@ -135,8 +135,7 @@
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/surrounding_item_location"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/living_entity"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/non_living_entity"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/living_entity"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/non_living_entity"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_at_the_back</rdfs:label>
     </owl:ObjectProperty>
     
@@ -148,8 +147,7 @@
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/surrounding_item_location"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/living_entity"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/non_living_entity"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/living_entity"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/non_living_entity"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_in_the_front</rdfs:label>
     </owl:ObjectProperty>
     
@@ -171,8 +169,7 @@
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/surrounding_item_location"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/living_entity"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/non_living_entity"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/living_entity"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/non_living_entity"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_on_the_left</rdfs:label>
     </owl:ObjectProperty>
     
@@ -184,8 +181,7 @@
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/surrounding_item_location"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/living_entity"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/non_living_entity"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/living_entity"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/non_living_entity"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_on_the_right</rdfs:label>
     </owl:ObjectProperty>
     
@@ -259,8 +255,7 @@
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/surrounding_item_distance"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/living_entity"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/non_living_entity"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/living_entity"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/non_living_entity"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_within_close_distance</rdfs:label>
     </owl:ObjectProperty>
     
@@ -272,8 +267,7 @@
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/surrounding_item_distance"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/living_entity"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/non_living_entity"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/living_entity"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/non_living_entity"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_within_far_distance</rdfs:label>
     </owl:ObjectProperty>
     
@@ -285,8 +279,7 @@
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/surrounding_item_distance"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/living_entity"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/non_living_entity"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/living_entity"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/non_living_entity"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_within_very_close_distance</rdfs:label>
     </owl:ObjectProperty>
     
@@ -378,8 +371,7 @@
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/pedestrian_has_location">
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/scenery_details"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/illegal_pedestrian_crossings"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/legal_pedestrian_crossings"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/road_segment"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian_has_location</rdfs:label>
     </owl:ObjectProperty>
     
@@ -564,9 +556,7 @@
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/vehicle_has_location">
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/vehicle_conected"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/vehicle"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/preposition"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/road_segment"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/road_type"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/location"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle_has_location</rdfs:label>
     </owl:ObjectProperty>
     
@@ -1671,6 +1661,7 @@
     <!-- http://webprotege.stanford.edu/living_entity -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/living_entity">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">living_entity</rdfs:label>
     </owl:Class>
     
@@ -1758,6 +1749,7 @@
     <!-- http://webprotege.stanford.edu/non_living_entity -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/non_living_entity">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non_living_entity</rdfs:label>
     </owl:Class>
     
@@ -2666,6 +2658,12 @@
     <owl:Class rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#disability">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#health_consequence"/>
     </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
     
 
 
