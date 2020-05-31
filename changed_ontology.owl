@@ -1301,6 +1301,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/driver">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/passenger"/>
         <owl:disjointWith rdf:resource="http://webprotege.stanford.edu/passenger"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">driver</rdfs:label>
     </owl:Class>
@@ -1830,9 +1831,7 @@
     <!-- http://webprotege.stanford.edu/passenger -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/passenger">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/pet"/>
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/stock"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/living_entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passenger</rdfs:label>
     </owl:Class>
     
@@ -1868,10 +1867,7 @@
     <!-- http://webprotege.stanford.edu/pedestrian -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/pedestrian">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/human"/>
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/pet"/>
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/stock"/>
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/wild"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/living_entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedestrian</rdfs:label>
     </owl:Class>
     
@@ -1910,6 +1906,8 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/pet">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/animal"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/passenger"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pet</rdfs:label>
     </owl:Class>
     
@@ -2247,6 +2245,8 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/stock">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/animal"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/passenger"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stock</rdfs:label>
     </owl:Class>
     
@@ -2630,6 +2630,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/wild">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/animal"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wild</rdfs:label>
     </owl:Class>
     
@@ -2695,6 +2696,16 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#material_consequence">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/consequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#person -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#person">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/human"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/passenger"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
     </owl:Class>
     
 
