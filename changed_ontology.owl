@@ -135,6 +135,8 @@
 
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/has_at_the_back">
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/surrounding_item_location"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_at_the_back</rdfs:label>
     </owl:ObjectProperty>
     
@@ -144,6 +146,8 @@
 
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/has_in_the_front">
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/surrounding_item_location"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_in_the_front</rdfs:label>
     </owl:ObjectProperty>
     
@@ -163,6 +167,8 @@
 
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/has_on_the_left">
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/surrounding_item_location"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_on_the_left</rdfs:label>
     </owl:ObjectProperty>
     
@@ -172,6 +178,8 @@
 
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/has_on_the_right">
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/surrounding_item_location"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_on_the_right</rdfs:label>
     </owl:ObjectProperty>
     
@@ -245,6 +253,8 @@
 
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/has_within_close_distance">
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/surrounding_item_distance"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_within_close_distance</rdfs:label>
     </owl:ObjectProperty>
     
@@ -254,6 +264,8 @@
 
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/has_within_far_distance">
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/surrounding_item_distance"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_within_far_distance</rdfs:label>
     </owl:ObjectProperty>
     
@@ -263,6 +275,8 @@
 
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/has_within_very_close_distance">
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/surrounding_item_distance"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/project/BDGSqwMbfBgw7pUJ8IOnJ1#entity"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_within_very_close_distance</rdfs:label>
     </owl:ObjectProperty>
     
