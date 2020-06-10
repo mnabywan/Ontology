@@ -190,7 +190,7 @@
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/has_pedestrian">
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/general_scenery_description"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/scenario"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/passenger"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/pedestrian"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_pedestrian</rdfs:label>
     </owl:ObjectProperty>
     
